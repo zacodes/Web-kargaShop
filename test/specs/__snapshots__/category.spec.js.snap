@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`category.vue Snapshot özelliği 1`] = `
+<div id="Home" class="container my-5">
+  <div class="row">
+    <div class="col-3">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-ml">Ürün Grupları</h3>
+          <hr class="head-border float-left">
+          <div class="clearfix"></div>
+          Seçimleriniz <br><br>
+          Filtre Seçenekleri
+          <div class="col-12 border-bottom my-4"></div>
+          <div id="uni" class="font-weight-bold">UNISEX T-SHIRT</div> <a href="" class="d-block mt-3" style="color: rgb(239, 192, 2);"><i class="fa fa-angle-left"></i> Giyim
+          </a>
+          <div class="col-12 border-bottom my-4"></div>
+          <div id="mark" class="font-weight-bold text-left">
+            Tüm Markalar
+          </div>
+          <div class="form-check"><input type="checkbox" value="" id="defaultCheck1" class="form-check-input"> <label id="kar" for="defaultCheck1" class="form-check-label">
+              Karga
+            </label></div>
+          <div id="filt" class="font-weight-bold text-left mt-5">
+            Filtre Seçenekleri
+          </div>
+          <div class="form-check"><input type="checkbox" value="" id="defaultCheck2" class="form-check-input"> <label id="kamp" for="defaultCheck2" class="form-check-label">
+              Kampanyalı Ürünler
+            </label></div>
+          <div class="form-check"><input type="checkbox" value="" id="defaultCheck3" class="form-check-input"> <label id="spons" for="defaultCheck3" class="form-check-label">
+              Sponsor Ürünler
+            </label></div>
+          <div class="form-check"><input type="checkbox" value="" id="defaultCheck4" class="form-check-input"> <label id="yeni" for="defaultCheck4" class="form-check-label">
+              Yeni Ürünler
+            </label></div>
+          <div id="enp" class="font-weight-bold text-left mt-5">
+            En Popüler Olanlar
+          </div> <a href="/product" class="d-block"><i class="fa fa-camera"></i>
+            KANAGAWA -UNISEX TSHIRT
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-3 product-card-container">
+          <b-link to="/product">
+            <b-card title="KANAGAWA -UNISEX TSHIRT" img-src="_nuxt/assets/image/product1.jpg" img-alt="KANAGAWA -UNISEX TSHIRT" img-top="" tag="article" class="mb-2" style="max-width: 20rem;">
+              <b-card-text>
+                KANAGAWA -UNISEX TSHIRT
+              </b-card-text>
+              <p class="card-price font-weight-bold">
+                34.9 TL
+              </p>
+            </b-card>
+          </b-link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

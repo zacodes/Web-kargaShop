@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+  font-size: 14px;
+}
+* {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#app {
+  font-family: 'Montserrat';
+  color: #000;
+
+  a {
+    color: #000;
+  }
+
+  .text-xl {
+    font-size:50px;
+  }
+
+  .text-lg {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .text-ml {
+    font-size:1.4rem;
+    font-weight: 600;
+  }
+
+  .text-sm {
+    font-size:14px;
+  }
+
+  .text-xs {
+    font-size:12px;
+  }
+
+  .head-border {
+    width: 11rem;
+    background-color: #efc002;
+    height: 4px;
+  }
+
+  header {
+
+    nav, nav li {
+      position: inherit !important;
+    }
+
+    padding-top: 15px;
+    padding-bottom: 0px;
+    border-color: #ebebeb;
+
+    img.header-logo {
+      width: 100px;
+    }
+
+    #CartItemCount {
+      position: absolute;
+      right: -14px;
+      bottom: -13px;
+      padding: 2px 7px;
+      background-color: #efc002;
+      font-size: 12px;
+      border-radius: 100px;
+      color: #fff;
+      text-align: center;
+    }
+
+    nav {
+
+      .nav-link {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0 1.25rem;
+        padding-bottom: 15px;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: 41px;
+        left: 0;
+        width: 100%;
+
+        .link-container {
+          padding: 10px;
+          text-align: center;
+          font-weight: 600;
+        }
+
+        img {
+          width: 100%;
+        }
+
+      }
+
+      .dropdown-toggle::after {
+        display: none;
+      }
+    }
+  }
+
+  footer {
+    .top-footer {
+      background: #cedde0;
+      padding-top:15px;
+      padding-bottom:15px;
+
+      .input-group-text {
+        background:transparent;
+        border:none;
+        border-radius: 0;
+        border-bottom:1px solid #000;
+      }
+      input {
+        border:none;
+        background:transparent;
+        border-radius: 0;
+        border-bottom:solid 1px #000;
+      }
+      button {
+        border:none;
+        font-size:1rem;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-weight: 600;
+        background:#e3b602;
+        border-radius: 30px;
+        padding: 5px 30px;
+        color: #fff;
+      }
+    }
+  }
+
+  .product-card-container {
+    a {
+      text-decoration: none;
+    .card {
+      border:none;
+      border-radius: 0;
+      text-align: center;
+      img {
+        border-radius: 0;
+      }
+      .card-title {
+        color:#58828e;
+        font-weight: 600;
+        font-size:.8rem;
+      }
+    }
+    }
+  }
+
+  .product-count-container {
+    .input-group {
+      background-color: #ddd;
+      border:none;
+      border-radius: 80px;
+      input {
+        background-color: #ddd;
+        padding: 24px;
+      }
+    }
+    button {
+      padding-top:15px;
+      padding-bottom:15px;
+      border:none;
+      border-radius: 30px;
+    }
+  }
+
+}

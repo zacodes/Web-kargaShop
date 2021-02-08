@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue Snapshot özelliği 1`] = `
+<div id="Home" class="container">
+  <b-carousel id="carousel-1" interval="4000" controls="" indicators="" background="#fff" img-width="100%" style="text-shadow: 1px 1px 2px #333;">
+    <b-carousel-slide img-src="~/assets/image/slider_1.jpg"></b-carousel-slide>
+    <b-carousel-slide img-src="~/assets/image/slider_2.jpg" href=""></b-carousel-slide>
+    <b-carousel-slide img-src="~/assets/image/slider_3.jpg" href=""></b-carousel-slide>
+    <b-carousel-slide img-src="~/assets/image/slider_4.jpg" href=""></b-carousel-slide>
+    <b-carousel-slide img-src="~/assets/image/slider_5.jpg" href=""></b-carousel-slide>
+  </b-carousel>
+  <p id="vitrinyazi" class="text-center text-uppercase mt-5 text-lg pb-0 mb-0">
+    Vitrindekiler
+  </p>
+  <hr class="head-border mx-auto mt-1">
+  <div class="row">
+    <div class="col-3 product-card-container">
+      <b-link to="/product">
+        <b-card title="KANAGAWA -UNISEX TSHIRT" img-src="_nuxt/assets/image/product1.jpg" img-alt="KANAGAWA -UNISEX TSHIRT" img-top="" tag="article" class="mb-2" style="max-width: 20rem;">
+          <b-card-text>
+            KANAGAWA -UNISEX TSHIRT
+          </b-card-text>
+          <p class="card-price font-weight-bold">
+            34.9 TL
+          </p>
+        </b-card>
+      </b-link>
+    </div>
+  </div>
+</div>
+`;

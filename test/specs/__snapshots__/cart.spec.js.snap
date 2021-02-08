@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart.vue Snapshot özelliği 1`] = `
+<div class="container text-center">
+  eşya yok
+</div>
+`;

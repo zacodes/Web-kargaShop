@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login.vue Snapshot özelliği 1`] = `
+<div id="Home" class="container">
+  <div class="row">
+    <div class="col-4 offset-4 border my-4" style="border-radius: 5px;">
+      <div class="row">
+        <div class="col-12 text-center mt-3"><i class="fa fa-user-circle" style="font-size: 60px; color: rgb(221, 221, 221);"></i></div>
+        <div class="col-12 text-center mt-3 text-ml">
+          Üye Girişi
+        </div>
+        <div class="col-12 mt-3">
+          <b-input-group prepend="@">
+            <b-form-input placeholder="Email"></b-form-input>
+          </b-input-group>
+        </div>
+        <div class="col-12 mt-3">
+          <b-input-group>
+            <b-input-group-prepend>
+              <div data-children-count="0" class="input-group-text"><i class="fa fa-lock"></i></div>
+            </b-input-group-prepend>
+            <b-form-input placeholder="Şifre"></b-form-input>
+          </b-input-group>
+        </div>
+        <div class="col-6 mt-3">
+          <div class="form-check form-check-inline"><input type="checkbox" id="inlineCheckbox1" value="option1" class="form-check-input"> <label for="inlineCheckbox1" class="form-check-label">Beni Hatırla</label></div>
+        </div>
+        <div class="col-6 mt-3 text-right"><a href="">Şifremi Unuttum</a></div>
+        <div class="col-12 my-3"><a href="" class="btn btn-warning btn-block" style="border-radius: 30px; color: rgb(255, 255, 255);">
+            Giriş Yap
+          </a></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

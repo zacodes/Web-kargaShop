@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+html {
+  font-size: 14px;
+}
+
+* {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#app {
+  font-family: "Montserrat";
+  color: #000;
+}
+#app a {
+  color: #000;
+}
+#app .text-xl {
+  font-size: 50px;
+}
+#app .text-lg {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#app .text-ml {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+#app .text-sm {
+  font-size: 14px;
+}
+#app .text-xs {
+  font-size: 12px;
+}
+#app .head-border {
+  width: 11rem;
+  background-color: #efc002;
+  height: 4px;
+}
+#app header {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  border-color: #ebebeb;
+}
+#app header nav, #app header nav li {
+  position: inherit !important;
+}
+#app header img.header-logo {
+  width: 100px;
+}
+#app header #CartItemCount {
+  position: absolute;
+  right: -14px;
+  bottom: -13px;
+  padding: 2px 7px;
+  background-color: #efc002;
+  font-size: 12px;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+}
+#app header nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 1.25rem;
+  padding-bottom: 15px;
+}
+#app header nav .dropdown-menu {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  width: 100%;
+}
+#app header nav .dropdown-menu .link-container {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+#app header nav .dropdown-menu img {
+  width: 100%;
+}
+#app header nav .dropdown-toggle::after {
+  display: none;
+}
+#app footer .top-footer {
+  background: #cedde0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#app footer .top-footer .input-group-text {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #000;
+}
+#app footer .top-footer input {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  border-bottom: solid 1px #000;
+}
+#app footer .top-footer button {
+  border: none;
+  font-size: 1rem;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #e3b602;
+  border-radius: 30px;
+  padding: 5px 30px;
+  color: #fff;
+}
+#app .product-card-container a {
+  text-decoration: none;
+}
+#app .product-card-container a .card {
+  border: none;
+  border-radius: 0;
+  text-align: center;
+}
+#app .product-card-container a .card img {
+  border-radius: 0;
+}
+#app .product-card-container a .card .card-title {
+  color: #58828e;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+#app .product-count-container .input-group {
+  background-color: #ddd;
+  border: none;
+  border-radius: 80px;
+}
+#app .product-count-container .input-group input {
+  background-color: #ddd;
+  padding: 24px;
+}
+#app .product-count-container button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
