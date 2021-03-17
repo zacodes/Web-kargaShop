@@ -1,6 +1,6 @@
 # kargaShop
  Web Project
-
+''
 
 # install dependencies
 $ yarn install
@@ -14,4 +14,4 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-```
+''
