@@ -1,7 +1,8 @@
 # kargaShop
- Web Project
-''
 
+**Build Setup**
+
+```
 # install dependencies
 $ yarn install
 
@@ -14,4 +15,7 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-''
+```
+
+For detailed explanation on how things work, check out Nuxt.js docs.
+
