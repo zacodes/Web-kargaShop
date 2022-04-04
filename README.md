@@ -1,5 +1,7 @@
 # kargaShop
 
+Bu proje, Web Programlama dersinde verilmiş olup, sayfanın (kargashop.com) bazı componentlerinin birebir aynısının yapılması istenmiştir.
+
 **Build Setup**
 
 ```
@@ -15,8 +17,5 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-
 ```
-
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
